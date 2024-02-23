@@ -7,3 +7,16 @@ Checkout the Technical Design Document [Fat Daddy's TDD](https://docs.google.com
 
 # Project Setup. 
 
+1. Initialize Node Project. 
+
+        npm init -y
+
+2. Install Dependencies. 
+
+        npm install express mongoose react react-dom
+
+
+
+
+
+

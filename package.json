@@ -1,0 +1,18 @@
+{
+  "name": "fat-daddys",
+  "version": "1.0.0",
+  "description": "Title: Fat Daddy's Bar & Grill  \r Author: Brooke Taylor  \r Date: 02/22/2024  \r Description: Mock site for portfolio piece.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
