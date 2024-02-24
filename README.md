@@ -13,7 +13,16 @@ Checkout the Technical Design Document [Fat Daddy's TDD](https://docs.google.com
 
 2. Install Dependencies. 
 
-        npm install express mongoose react react-dom
+        npm install express mongoose react react-dom 
+
+## Setting up Database. 
+
+1. Installing bcrypt to hash customer passwords. 
+
+        npm i bcryptjs
+
+2. Adding pages `db_customers_init.js`, `db_orders_init.js`, and `db_surveys_init.js`.
+
 
 
 
