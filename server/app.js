@@ -12,6 +12,17 @@ const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+
+
+
+// Routes
+const customerRoute = require('./routes/customer');
+
+
+
+
+
+
 // connection string for MongoDB
 const conn =
   "mongodb+srv://fatdaddysAdmin:s3cret@bellevueuniversity.kqpr8ra.mongodb.net/fatdaddys?retryWrites=true&w=majority";
@@ -27,7 +38,18 @@ mongoose
         console.log("MongoDB Error: " + err.message);
     });
 
-// Set up routes and middleware as needed
+
+// Configure the app
+app.use(express.json())
+
+
+// App Routes
+app.use('/api/customers', customerRoute)
+
+
+
+
+
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
